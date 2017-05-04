@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/ronanyeah/scrapers#readme",
   "dependencies": {
+    "co": "^4.6.0",
+    "dotenv": "^4.0.0",
     "fluture": "^5.0.0",
+    "ramda": "^0.23.0",
     "rotools": "^1.3.0",
     "x-ray": "^2.3.2"
   }

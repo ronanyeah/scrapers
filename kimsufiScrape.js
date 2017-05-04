@@ -31,14 +31,3 @@ const go =
               'BUY A SERVER!'
           )
   )
-
-setInterval(
-  () =>
-    go
-    .fork(
-      err =>
-        console.log(err.message),
-      console.log
-    ),
-  60000
-)
